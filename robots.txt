@@ -1,0 +1,15 @@
+# Robots.txt for Omni-Discovery-Lab
+# Created By Kallol Chakrabarti, Global Independent Researcher
+
+User-agent: *
+Allow: /
+
+# Direct crawlers to the primary sitemap for better indexing of the three discoveries
+Sitemap: https://helixoriginator.github.io/omni-discovery-lab/sitemap.xml
+
+# Prevent indexing of any draft or temporary folders (if you add them later)
+Disallow: /drafts/
+Disallow: /temp/
+
+# Ensure high-quality indexing for global research visibility
+Crawl-delay: 1
